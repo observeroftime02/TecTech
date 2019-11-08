@@ -296,11 +296,12 @@ public class GT_MetaTileEntity_Hatch_Rack extends GT_MetaTileEntity_Hatch {
         new RackComponent(ItemList.Circuit_Crystalmainframe.get(1), 30, 18, -.35F, 5500, true);//UV Circuit
         new RackComponent(ItemList.Circuit_Wetwaresupercomputer.get(1), 35, 22, -.3F, 5700, true);
         new RackComponent(ItemList.Circuit_Wetwaremainframe.get(1), 38, 25, -.4F, 6000, true);//UHV Circuit
+        new RackComponent(ItemList.Special_Oredrill_Circuit.get(1), 2048, 0, 0F, 12000, true);//UHV Circuit
         
         new RackComponent("IC2:ic2.reactorVent", 0, -1, 10f, 1000, false);
         new RackComponent("IC2:ic2.reactorVentCore", 0, -1, 20f, 2500, false);
         new RackComponent("IC2:ic2.reactorVentGold", 0, -1, 40f, 5000, false);
-        new RackComponent("IC2:ic2.reactorVentDiamond", 0, -1, 80f, 10000, false);//2x oc
+        new RackComponent("IC2:ic2.reactorVentDiamond", 0, -1, 8000f, 10000, false);//2x oc
         
         if (Loader.isModLoaded(Reference.DREAMCRAFT)) {
             //GTNH-GT5u circuits
